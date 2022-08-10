@@ -9,19 +9,19 @@ numbers = [951, 402, 984, 651, 360, 69, 408,
 # Loop dan print semua angka genap dari list angka diatas dengan urutan yang sama.
 for i in numbers:
     if i % 2 == 0:
-        print(i)
+        print(i, end=' ')
 print('\n')
 # Jangan mencetak angka apapun yang muncul setelah angka 918 berdasarkan posisi angka tersebut pada list diatas.
 for i in numbers:
     if i % 2 == 0:
-        print(i)
+        print(i, end=" ")
         if i == 918:
             break
 print('\n')
 # Tampilkan pesan ”Done” setelah looping berakhir.
 for i in numbers:
     if i % 2 == 0:
-        print(i)
+        print(i, end=" ")
         if i == 918:
             print('DONE')
             break
